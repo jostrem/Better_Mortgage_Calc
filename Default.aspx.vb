@@ -3,7 +3,7 @@
 Partial Class _Default
     Inherits System.Web.UI.Page
 
-    Protected Sub CalcPmt_Click(sender As Object, e As EventArgs) Handles CalcPmt.Click
+    Protected Sub CalcPmt_Click(sender As Object, e As EventArgs) Handles btnCalcPmt.Click
         'Declaring the Variables for each field.
         Dim loanAmount As Double
         Dim annualRate As Double
